@@ -1,0 +1,44 @@
+.calculator {
+    max-width: 30em;
+    margin: 2em auto;    
+}
+
+.display {
+    background-color: #696667FF;
+    padding: 0.5em 0.4em;
+}
+
+.digital-display {
+    width: 99%;
+    font-size: 5em;
+    height: 80px;
+    background-color: #567572FF;
+    color: #fff;  
+    text-align: right;    
+    border: none;
+    border-radius: 0.1em;
+}
+
+.keyboard {
+    display: grid;
+    padding: 0.5em 0.4em;
+    gap: 0.5em; 
+    background-color: #696667FF;
+}
+
+button {
+    font-size: 1em;
+    padding: 1.5em 1.5em;
+    background-color: #567572FF;
+    color: #fff;
+    border-radius: 1em;
+    border: none;
+}
+
+.clear {
+    grid-column: 1 / span 2;
+}
+
+.equal-sign {
+    grid-column: 3 / span 2;
+}
